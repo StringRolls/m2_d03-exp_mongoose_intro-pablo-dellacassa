@@ -28,7 +28,7 @@ Cat.create({ name: 'Garfield', age: 13, color: 'orange' })
 //         .catch(err => console.log(`Error while creating a cat! ${err}`));
 
 // create multiple documents in the cats collection
-Cat.create([
+Cat.insertMany([
   { name: 'Garfield', age: 13, color: 'orange' },
   { name: 'Milo', age: 4, color: 'white' },
   { name: 'Whiskey', age: 8, color: 'grey' }
